@@ -15,7 +15,7 @@
           <a class="nav-link" aria-current="page" [routerLink]="['/']" routerLinkActive="active">Restaurantes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/cursos']" routerLinkActive="active">Sobre</a>
+          <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">Sobre</a>
         </li>
       </ul>
     </div>
@@ -23,5 +23,5 @@
 </nav>
 
 <div class="container">
- <app-home></app-home>
+ <router-outlet></router-outlet>
 </div>
